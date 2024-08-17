@@ -10,12 +10,12 @@ FORMAT_DATE_YYMMDDHMSF = "%Y-%m-%d %H:%M:%S.%f"
 def now() -> datetime:
     return datetime.datetime.now()
 
-def dateToStr(date_obj: datetime, format: str) -> str:
+def date_to_str(date_obj: datetime, format: str) -> str:
     return date_obj.strftime(format)
 
-def strToDate(str_obj: str, format: str) -> datetime:
+def str_to_date(str_obj: str, format: str) -> datetime:
     return datetime.datetime.strptime(str_obj, format)
 
-def dateToTimestamp(date_obj: datetime):
+def date_to_timestamp(date_obj: datetime):
     return time.mktime(date_obj.timetuple())
 
