@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # Author: qicongsheng
 def get_version():
-    return '0.0.2'
+    return '1.0.6'
 
 
 def print_version():
