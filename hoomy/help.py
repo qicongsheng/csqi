@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # Author: qicongsheng
 def get_version():
-    return '1.8.66'
+    return '1.8.68'
 
 def print_version():
     print('''treasure %s
