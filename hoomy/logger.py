@@ -6,7 +6,7 @@ logger = loguru.logger.opt(depth=1)
 def info(msg: str) -> None:
     logger.info(msg)
 
-def warning(msg: str) -> None:
+def warn(msg: str) -> None:
     logger.warning(msg)
 
 def error(msg: str) -> None:
