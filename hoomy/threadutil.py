@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # Author: qicongsheng
 import threading
-import listutil
+from . import listutil
 
 def thread_partition_call(list_obj: list, func_, thread_num: int, partiton_num: int) -> None:
     list_partiton = listutil.partition(list_obj, partiton_num)
