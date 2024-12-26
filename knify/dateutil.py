@@ -11,7 +11,7 @@ FORMAT_DATE_YYMMDDHMSF = "%Y-%m-%d %H:%M:%S.%f"
 def now() -> datetime:
     return datetime.datetime.now()
 
-def date_to_str(date_obj: datetime, format: str) -> str:
+def date_to_str(date_obj: datetime, format: str = FORMAT_DATE_YYMMDDHMS) -> str:
     return date_obj.strftime(format)
 
 def str_to_date(str_obj: str, format: str) -> datetime:
