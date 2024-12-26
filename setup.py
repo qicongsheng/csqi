@@ -7,7 +7,7 @@ from knify import help
 setup(
     name=help.get_pip_name(),
     version=help.get_version(),
-    keywords='pyutils',
+    keywords=help.get_pip_name(),
     description='Development tools for python',
     license='MIT License',
     url='https://github.com/qicongsheng/%s' % help.get_pip_name(),
