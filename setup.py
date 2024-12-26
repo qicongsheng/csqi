@@ -2,15 +2,15 @@
 # -*- coding:utf-8 -*-
 # Author: qicongsheng
 from setuptools import setup, find_packages
-from hoomy import help
+from csqi import help
 
 setup(
-    name='hoomy',
+    name='csqi',
     version=help.get_version(),
-    keywords='hoomy',
+    keywords='csqi',
     description='Development tools for python',
     license='MIT License',
-    url='https://github.com/qicongsheng/hoomy',
+    url='https://github.com/qicongsheng/csqi',
     author='qicongsheng',
     author_email='qicongsheng@outlook.com',
     packages=find_packages(),

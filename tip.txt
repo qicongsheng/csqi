@@ -1,8 +1,8 @@
 #pip地址
-https://pypi.org/project/alipan/
+https://pypi.org/project/csqi/
 
 #打包
-cd alipan
+cd csqi
 python3 setup.py sdist
 #上传
 pip3 install twine
