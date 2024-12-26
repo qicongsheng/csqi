@@ -1,26 +1,16 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-import atexit as _atexit
-import sys as _sys
+import loguru
+logger = loguru.logger.opt(depth=1)
 
-from loguru import _defaults
-from loguru._logger import Core as _Core
-from loguru._logger import Logger as _Logger
+def info(msg: str) -> None:
+    logger.info(msg)
 
-logger = _Logger(
-    core=_Core(),
-    exception=None,
-    depth=0,
-    record=False,
-    lazy=False,
-    colors=False,
-    raw=False,
-    capture=True,
-    patchers=[],
-    extra={},
-)
+def warning(msg: str) -> None:
+    logger.warning(msg)
 
-if _defaults.LOGURU_AUTOINIT and _sys.stderr:
-    logger.add(_sys.stderr)
+def error(msg: str) -> None:
+    logger.error(msg)
 
-_atexit.register(logger.remove)
+def debug(msg: str) -> None:
+    logger.debug(msg)
