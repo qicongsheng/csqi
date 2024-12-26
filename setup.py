@@ -2,12 +2,12 @@
 # -*- coding:utf-8 -*-
 # Author: qicongsheng
 from setuptools import setup, find_packages
-from csqi import help
+from pyutils import help
 
 setup(
     name='csqi',
     version=help.get_version(),
-    keywords='csqi',
+    keywords='pyutils',
     description='Development tools for python',
     license='MIT License',
     url='https://github.com/qicongsheng/csqi',
