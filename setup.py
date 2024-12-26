@@ -10,7 +10,7 @@ setup(
     keywords='pyutils',
     description='Development tools for python',
     license='MIT License',
-    url='https://github.com/qicongsheng/' % help.get_pip_name(),
+    url='https://github.com/qicongsheng/%s' % help.get_pip_name(),
     author='qicongsheng',
     author_email='qicongsheng@outlook.com',
     packages=find_packages(),
