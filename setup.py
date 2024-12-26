@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # Author: qicongsheng
 from setuptools import setup, find_packages
-from pyutils import help
+from knify import help
 
 setup(
     name=help.get_pip_name(),
