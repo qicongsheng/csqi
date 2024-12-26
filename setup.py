@@ -17,6 +17,6 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-
+        'loguru~=0.7.2'
     ]
 )
